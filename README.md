@@ -16,9 +16,14 @@ B. The testbench “NuCore_TB” perform the following:
 
 1. Provide the necessary interfacing signal, CLK and RESET and instantiate the NuCore.
 2. The testbench should then perform the testing as follows: 
-a. Load the following set of instructions to the instruction queue 
+a. Load the following set of instructions to the instruction queue
+
 i. RESET 
+
 ii. Store values of 1,2,3,4,5,6,7,8,9,10 at locations 1,2,3,4,5,6,7,8,9,10 of REG FILE A 
+
 iii. Store values of 10,9,8,7,6,5,4,3,2,1 at locations 1,2,3,4,5,6,7,8,9,10 of REG FILE B 
+
 iv. Add all the consecutive locations of REG FILE A & REG FILE B 
+
 v. Bitwise‐AND all the consecutive locations of REG FILE A & REG FILE B
